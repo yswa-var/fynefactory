@@ -1,0 +1,8 @@
+{
+  "id": "surface",
+  "name": "Surface",
+  "category": "Layout",
+  "description": "Theme-aware content surface",
+  "status": "stable",
+  "properties": []
+}

@@ -1,0 +1,12 @@
+{
+  "id": "badge",
+  "name": "Badge",
+  "category": "Display",
+  "description": "Compact theme-aware status label",
+  "status": "stable",
+  "variants": ["success", "warning", "error", "neutral"],
+  "properties": [
+    {"name": "text", "type": "string", "default": "Status"},
+    {"name": "variant", "type": "string", "default": "success"}
+  ]
+}

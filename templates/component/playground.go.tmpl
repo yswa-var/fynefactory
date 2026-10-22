@@ -1,0 +1,12 @@
+package playgrounds
+
+import (
+	"fyne.io/fyne/v2"
+	"github.com/yswa-var/fynefactory/components"
+)
+
+// New{{.TypeName}}Playground creates a fresh, isolated component demo.
+func New{{.TypeName}}Playground() fyne.CanvasObject {
+	_ = components.{{.TypeName}}{}
+	return nil
+}

@@ -1,0 +1,17 @@
+package components
+
+// {{.TypeName}} is a theme-aware Fyne component.
+type {{.TypeName}} struct {
+	// Add only public configuration that callers need to control.
+}
+
+// New{{.TypeName}} constructs a {{.TypeName}} with optional configuration.
+func New{{.TypeName}}(opts ...{{.TypeName}}Option) *{{.TypeName}} {
+	component := &{{.TypeName}}{}
+	for _, opt := range opts {
+		if opt != nil {
+			opt(component)
+		}
+	}
+	return component
+}

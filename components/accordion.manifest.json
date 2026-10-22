@@ -1,0 +1,12 @@
+{
+  "id": "accordion",
+  "name": "Accordion",
+  "category": "Layout",
+  "description": "Collapsible sections of content with shadcn-inspired disclosure styling",
+  "status": "stable",
+  "variants": ["default", "outline", "ghost"],
+  "properties": [
+    {"name": "size", "type": "string", "default": "medium"},
+    {"name": "multiOpen", "type": "bool", "default": false}
+  ]
+}

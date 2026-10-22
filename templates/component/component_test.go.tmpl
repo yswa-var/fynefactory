@@ -1,0 +1,10 @@
+package components
+
+import "testing"
+
+func Test{{.TypeName}}Defaults(t *testing.T) {
+	component := New{{.TypeName}}()
+	if component == nil {
+		t.Fatal("constructor returned nil")
+	}
+}

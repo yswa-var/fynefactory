@@ -1,0 +1,14 @@
+{
+  "id": "button",
+  "name": "Button",
+  "category": "Inputs",
+  "description": "Theme-aware accessible action button",
+  "status": "stable",
+  "variants": ["primary", "secondary", "ghost", "danger"],
+  "properties": [
+    {"name": "text", "type": "string", "default": "Button"},
+    {"name": "radius", "type": "float32", "default": "theme"},
+    {"name": "minWidth", "type": "float32", "default": 80},
+    {"name": "disabled", "type": "bool", "default": false}
+  ]
+}
